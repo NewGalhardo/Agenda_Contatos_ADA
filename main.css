@@ -1,0 +1,90 @@
+.root
+{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.container
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.header_image
+{
+    width: 50%;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-left: 23vw;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.login
+{
+    box-sizing: content-box;
+    width: 50vw;
+    height: 50vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-bottom: 25vh;
+    border-radius: 18px;
+    border: solid 2px white;
+}
+
+h1
+{    
+    box-sizing: content-box;
+    font-size: 40px;
+    color: white;
+    margin-left: 38%;
+}
+
+.login_label
+{
+    display: block;
+    margin-left: 15%;
+    color: white;  
+    font-size: 30px;  
+}
+
+.login_input
+{
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+#login_button
+{
+    width: 35%;
+    height: 40px;
+    margin-left: 32%;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login_signup
+{
+    width: 15%;
+    height: 35px;
+    margin-left: 42%;
+}
+
+.login_signup_content
+{
+    color: white;
+}
+
+.login_signup_go
+{
+    color: yellow;
+}
